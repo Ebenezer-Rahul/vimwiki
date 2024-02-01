@@ -1,0 +1,15 @@
+= wiki Index =
+
+
+== Links ==
+
+[[Notes]]
+
+[[Algorithms]]
+
+[[c++]]
+
+[[Math]]
+
+[[Linux]]
+

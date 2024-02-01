@@ -1,0 +1,9 @@
+
+
+= problem =
+
+Have a good Estimate of number of unique elements in a list 
+whithout having O(n) space for a map.
+
+do it in O(1) memory (may be in O(loglogn)
+

@@ -1,0 +1,11 @@
+
+
+= problem =
+
+Sample k elements from a stream of unknown elements 
+such that each element in stream has a equall probability of
+getting picked
+
+= solution = 
+
+

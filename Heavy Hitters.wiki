@@ -1,0 +1,12 @@
+
+
+= problem =
+
+Find elements with a freqency of 1/k in an array or stream
+without having to maintain a map of size o(n)
+
+do it in o(k) 
+
+// still doubts on how to verify ??
+
+

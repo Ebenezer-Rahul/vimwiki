@@ -1,0 +1,19 @@
+
+== Problem ==
+
+String Searching
+
+== idea == 
+
+The main idea is to preprocess the string to be searched 
+and build a table which lets us skip more than one char at a time
+
+Skip table as 
+
+skip[c] = max(1, n - posFromLast);
+
+do this form i = 0 to n over the string 
+
+it is import to do this from front to back as we can skip 
+
+// will write it down later it's simple
