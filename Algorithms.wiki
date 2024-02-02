@@ -9,6 +9,5 @@
 
 [[HyprLogLog]]
 
-
 [[Boyer-More]]
 

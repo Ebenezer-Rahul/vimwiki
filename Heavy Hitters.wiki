@@ -7,6 +7,15 @@ without having to maintain a map of size o(n)
 
 do it in o(k) 
 
+== idea ==
+
+Same idea as that of majority element but instead of having a single element and a single count
+variable 
+
+whenever an element comes which is one of the k elements incr the corressponding element
+and whenever none comes just decrement all of them when one of them gets to < 0 replace it with the new element
+
+
 // still doubts on how to verify ??
 
 

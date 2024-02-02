@@ -6,6 +6,27 @@ Sample k elements from a stream of unknown elements
 such that each element in stream has a equall probability of
 getting picked
 
-= solution = 
+== idea == 
 
+think about when we are processing the n-th element in the stream
+
+pick this n-th elemenet with a probablity of k/n. and replace the any of the k current samples with this
+instead
+
+we can prove that this works { i.e sample uniformly } with induction.
+
+informally assume that after seeing n-1 elements in stream an element. probablity of it being in stream is k/n-1
+now after processing the k-th element. the probablity of it being a sample is 
+=>(k/(n-1)) * ((k-1)/k) * (k/n) + ((n-k)/n)*(k/(n-1)) 
+=> (k/n-1) * (((k -1) / n) + 1 -k/n) 
+=> (k/(n-1)) * ((n-1) / n)
+=> k/n
+*
+There's an implemtation trick by not generating random number twice 
+for each element in stream i.e
+int r = randInd();
+
+if r % n < k 
+	pick and replace 
+	r%n th element from current sample
 

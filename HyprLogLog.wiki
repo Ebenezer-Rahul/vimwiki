@@ -7,3 +7,20 @@ whithout having O(n) space for a map.
 
 do it in O(1) memory (may be in O(loglogn)
 
+== idea ==
+
+given a random binary number 
+the probabilty that the number starts with k zeros is pow(2,k)
+Now this also means that in a given sample if we have tracked the max number of starting zero's to be say k
+we can estimate that there are pow(2, k) unique elements in the sample.
+
+but 
+- we need to map some arbitary entry i.e struct into a binary number 
+- also make sure that it behaves as if as a random mapping to binary number 
+- also make sure that the same elements should be mapped to the same binary numbers 
+
+This can be achived by a hash function.
+
+But our estimate is not good with just the following so we make it good by diving the whole into parts and use
+some statistics to get a better estimate
+
