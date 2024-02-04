@@ -2,5 +2,5 @@
 
 = problem =
 
-Traverse tree without stack blowing up even if a tree is highly skewed
+= Traverse tree without stack blowing up even if a tree is highly skewed =
 

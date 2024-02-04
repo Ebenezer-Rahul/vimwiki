@@ -1,0 +1,21 @@
+
+
+=== Architectural Patterns ===
+
+[[Layers]]
+[[Pipes & Filters]]
+[[Bridge]]
+[[Black Board]]
+
+=== ===
+
+[[MVC|Model View Controller]]
+[[PAC]]
+[[Strategy]]
+[[Composite]]
+[[Visitor]]
+[[Proxy]]
+[[iterator]]
+[[Abstract Factory]]
+[[Builder]]
+....

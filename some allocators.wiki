@@ -1,0 +1,16 @@
+
+=== null-allocator ===
+
+=== Fall-backallocator ===
+Primaray, Fallback
+owns ()
+=== stack-allocator ===
+
+=== Free-List allocator ===
+Parent 
+
+=== Bit blocke ===
+
+=== segregate allocator === 
+
+=== slab-allocator === 

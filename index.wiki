@@ -13,3 +13,6 @@
 
 [[Linux]]
 
+[[Design Patterns]]
+
+[[Language Design]]

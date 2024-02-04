@@ -49,3 +49,5 @@ Dynamic Storage Allocation
 https://dl.acm.org/doi/pdf/10.1145/321650.321658 *didn't read yet*
 
 https://stackoverflow.com/questions/826569/compelling-examples-of-custom-c-allocators *didn't read yet*
+
+[[some allocators]]
