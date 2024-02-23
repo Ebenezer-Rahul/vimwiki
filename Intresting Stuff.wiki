@@ -1,0 +1,8 @@
+
+== She bang "#!" ==
+
+The program loader whenever its executing an executable if it encounters a 
+shebang will run execute the program with an interpretter
+
+The path to the interpretter should be specified following the shebang 
+Then it passes the file as an arg to the interpretter which it self would be an executable

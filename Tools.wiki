@@ -1,0 +1,52 @@
+
+== Tools == 
+
+- printf
+- echo
+- sed
+- grep
+- paste
+- nvim
+- ffmpeg
+- git
+- find
+- awk
+- sort
+- ssh
+- make
+- g++
+- cmake
+- python
+- R
+- curl
+- xargs
+- ctags
+- lsp
+- zip
+- tar
+- cron
+- convert
+- gzip
+- Unite.vim
+- date
+- tee
+- feh
+- nnn
+- tail
+- head
+- less
+- wc
+- bc
+- uniq
+- nohup
+- bg and fg in detail
+- rsync
+- scp
+- ssh-keygen
+- ssh-copy-id
+- fzf
+- jq
+
+
+-  gdb
+- strace

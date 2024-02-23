@@ -1,0 +1,46 @@
+
+== Caching == 
+
+implement a cache in functions or a better one is to implement a memorize 
+template Function
+
+
+== Efficient DataEncoding ==
+
+Example :
+	for-say date 
+	{{{C
+		struct Date {
+			int year 13;
+			int month 4;
+			int day 5;
+		}
+		//better in terms of both efficiency and compuatutaion
+
+	}}}
+
+== Sparsity ==
+
+Reprasenting sparse data 
+
+- Matrices
+	1. Representing in form of row, columns, vals //Will explain the details later
+	2. at index i in the rows array we store the index of colums array which corresponds to this row
+	3. then in the columns array we store all the columns numbers of non zero elements
+	4. in the correspong vals array we store the actual value
+	5. drastically less work if the matrix is sparse when multiplying or transforming
+
+	_store vals and columns array in the same array improves cache locality_
+	
+
+	*Note Need to write it better, its simple*
+- Graphs
+	1. Store Offsets array and Edges array
+	2. In the offsets array store the indices corresponding to Edges array corresponding to the current vertex
+
+
+- Partial Loop Unrolling
+
+- Sentinals
+	1. Adding Dummy Nodes/Data which make checking boundries easy.
+

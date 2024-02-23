@@ -7,7 +7,6 @@
 [[Bridge]]
 [[Black Board]]
 
-=== ===
 
 [[MVC|Model View Controller]]
 [[PAC]]
@@ -18,4 +17,3 @@
 [[iterator]]
 [[Abstract Factory]]
 [[Builder]]
-....
