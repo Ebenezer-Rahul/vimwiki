@@ -1,0 +1,5 @@
+
+== compute min without branches ==
+
+== compute log n when n is a power of 2 ==
+
